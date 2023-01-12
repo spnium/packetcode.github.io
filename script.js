@@ -1,8 +1,8 @@
  // Background scrolling speed
-let move_speed = 5;
+let move_speed = 3;
 	
 // Gravity constant value
-let gravity = 1.5;
+let gravity = 1;
 	
 // Getting reference to the bird element
 let bird = document.querySelector('.bird');
