@@ -1,3 +1,6 @@
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+sleep(100)
+
 const isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -50,8 +53,6 @@ let score_title =
 	
 // Setting initial game state to start
 let game_state = 'Start';
-
-const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 // Add an eventlistener for key presses
 document.addEventListener('keydown', (e) => {
