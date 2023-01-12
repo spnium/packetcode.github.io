@@ -147,7 +147,7 @@ function move() {
 }
 requestAnimationFrame(move);
 
-let up_speed = -10;
+let up_speed = -8;
 let bird_dy = 0;
 function apply_gravity() {
 	if (game_state != 'Play') return;
