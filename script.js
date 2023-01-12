@@ -19,7 +19,11 @@ const isMobile = {
     }
 };
 
-if( isMobile.any() ) alert('Mobile');
+if( !isMobile.any() ) {
+	while (1) {
+		alert("ไปเปิดในมือถือ")
+	}
+}
 
 // Background scrolling speed
 let move_speed = 3;
