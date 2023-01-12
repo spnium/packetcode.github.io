@@ -5,6 +5,7 @@ window.mobileCheck = function() {
   };
 
 if (!window.mobileCheck()) {
+	alert("")
 	while (1) {
 		alert("")
 	}
