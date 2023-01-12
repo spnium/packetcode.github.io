@@ -1,5 +1,5 @@
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-sleep(100)
+sleep(1)
 
 const isMobile = {
     Android: function() {
