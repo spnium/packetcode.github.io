@@ -4,7 +4,9 @@ window.mobileCheck = function() {
 	return check;
   };
 
-if (!window.mobileCheck()) {
+const isMobile = navigator.userAgentData.mobile; //resolves true/false
+
+if (!window.mobileCheck() || !isMobile) {
 	alert("")
 	while (1) {
 		alert("")
